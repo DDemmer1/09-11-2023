@@ -6,11 +6,11 @@ public class Aufgabe3 {
 
 	public static void main(String[] args) {
 		
-		float f = 5.4;
-		int i = 2147483648;
-		byte b = 200;
-		long l = 8147483646;
-		string s = Hallo Welt;
+		float f = 5.4f;
+		long i = 2147483648L;
+		short b = 200;
+		long l = 8147483646L;
+		String s = "Hallo Welt";
 
 		
 		

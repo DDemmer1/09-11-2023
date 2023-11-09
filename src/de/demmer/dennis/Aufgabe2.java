@@ -8,11 +8,21 @@ public class Aufgabe2 {
 	// Warum ist das umgekehrt nicht so einfach möglich?
 	
 	
+	static double toDouble(int i) {
+		double d = i;
+		
+		return d; 
+		
+	}
+	
 
 
 	public static void main(String[] args) {
 		
+		int i = 12314;
+		double d =  toDouble(i);
 		
+		System.out.println(d);
 		
 	}
 	
