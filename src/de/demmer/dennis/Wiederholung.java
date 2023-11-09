@@ -2,8 +2,27 @@ package de.demmer.dennis;
 
 public class Wiederholung {
 	
+	//     Rückgabewert    Methodenname     Parameter
+	static     int           plusTwo        (int i) {
+		
+		int x = i + 2;
+		
+		
+		return x;
+	}
+	
+	
+	
+	
+	
 
 	public static void main(String[] args) {
+		
+		
+		int y = plusTwo(8);
+		
+		
+		
 		
 		
 		int i = 2;
@@ -30,7 +49,7 @@ public class Wiederholung {
 		char c2 = '8';
 		char c3 = 56;
 		
-		System.out.println(c);
+//		System.out.println(c);
 		
 		
 		//häufigste Datentypen
